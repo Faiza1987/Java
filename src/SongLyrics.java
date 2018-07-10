@@ -13,7 +13,6 @@ public class SongLyrics {
 		verse5();
 		System.out.println();
 		verse6();
-		
 	}
 	
 	public static void oldLady(String animal) {
