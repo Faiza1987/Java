@@ -7,7 +7,7 @@ public class Displacement {
 		double a = 9.8;
 		double t = 10;
 		
-		double s = 12 + 3.5 * 10 + .5 * 9.8 * 10 * 10;
+		double s = s0 + v0 * t + .5 * a * t * t;
 		
 		System.out.println(s);
 	}
