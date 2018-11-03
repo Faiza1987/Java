@@ -18,6 +18,7 @@ public class Chapter3PP5 {
 		
 		System.out.print("Enter Longitude 2: ");
 		double longitude2 = Math.toRadians(input.nextDouble());
+		input.close(); 
 		
 		distanceBetweenTwoPoints(latitude1, longitude1, latitude2, longitude2);
 	}

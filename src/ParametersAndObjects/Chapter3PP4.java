@@ -15,6 +15,8 @@ public class Chapter3PP4 {
 		System.out.print("Enter length for side c: ");
 		double c = input.nextDouble();
 		
+		input.close(); 
+		
 		angleCalc(a, b, c);
 	}
 	
