@@ -11,8 +11,8 @@ Perfect numbers up to 500: 6 28 496 */
 public class PerfectNumbersCh4Ex21 {
 
 	public static void main(String[] args) {
-		//System.out.println(isPrime(11));
-		perfectNumbers(35000000);
+		System.out.println(isPrime(3));
+		//perfectNumbers(35000000);
 		
 	}
 	

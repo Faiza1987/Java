@@ -55,7 +55,9 @@ public class PrintPalindromeCh4Ex16 {
 		} else {
 			System.out.println(wordO + " is not a palindrome.");
 		}
+		console.close();
 	}
+
 }
 
 //for(int j = (word.length() - 1)/2; j >= 0; j--) {

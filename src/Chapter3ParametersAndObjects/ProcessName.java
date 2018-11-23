@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ProcessName {
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
+		Scanner tom = new Scanner(System.in);
 		
-		processName(input);
+		processName(tom);
 	}
 	
 	public static void processName(Scanner input) {
