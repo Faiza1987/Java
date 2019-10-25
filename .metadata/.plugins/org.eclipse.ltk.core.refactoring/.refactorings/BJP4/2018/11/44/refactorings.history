@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ConditionalExecution.PrintPalindrome&apos; to &apos;PrintPalindromeCh4Ex16&apos;&#x0D;&#x0A;- Original project: &apos;BJP4&apos;&#x0D;&#x0A;- Original element: &apos;ConditionalExecution.PrintPalindrome&apos;&#x0D;&#x0A;- Renamed element: &apos;ConditionalExecution.PrintPalindromeCh4Ex16&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PrintPalindrome&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ConditionalExecution{PrintPalindrome.java[PrintPalindrome" matchStrategy="1" name="PrintPalindromeCh4Ex16" qualified="false" references="true" similarDeclarations="false" stamp="1541200952362" textual="false" version="1.0"/>
+</session>

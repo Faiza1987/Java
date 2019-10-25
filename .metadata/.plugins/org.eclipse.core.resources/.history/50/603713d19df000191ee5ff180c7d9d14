@@ -1,0 +1,35 @@
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Set;
+
+// Determine if a string has all unique characters
+public class isUnique {
+	public static void main(String[] args) {
+		System.out.println(hasAllUnique("run"));
+	}
+	
+	public static Boolean hasAllUnique(String str) {
+		Boolean isUnique = true;
+		
+		char[] chars = str.toCharArray();
+		Hashtable<Character, Integer> hash = new Hashtable<Character, Integer>();
+		
+		for(int i = 0; i <= chars.length-1; i++) {
+			if(hash.contains(chars[i])) {
+				chars[i] += 1;
+			} else {
+				hash.put(chars[i], 1);
+			}
+		}
+		System.out.println(chars); 
+		System.out.println(hash); 
+		
+		if (chars.length != hash.size()) {
+			isUnique = false;
+		}
+		return isUnique;
+	}
+	
+
+}

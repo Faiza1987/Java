@@ -1,0 +1,20 @@
+// Write a method to replace all spaces in a string with "%20". 
+public class URLify {
+	
+	public static void main(String[] args) {
+		System.out.println(urlString("Mr John Smith "));
+	}
+	
+	public static String urlString(String str) {
+		StringBuilder sb = new StringBuilder();
+
+		 for(int i = 0; i < str.length(); i++) {
+			 if(Character.isWhitespace(str.charAt(i))) {
+				 sb.append("%20");
+			 }
+		 }
+		 
+	 String urlStr = sb.toString();
+	 return urlStr;
+	}
+}

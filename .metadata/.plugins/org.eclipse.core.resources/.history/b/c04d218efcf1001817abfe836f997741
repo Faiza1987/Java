@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class CollatzSequence {
+	
+	public static void main(String[] args) {
+		
+		collatzConjecture();
+	}
+		
+		public static void collatzConjecture() {
+			
+			Scanner console = new Scanner(System.in);
+			System.out.print("Starting number: ");
+			int number = console.nextInt();
+			int counter = 0;
+			int largestValue = 0;
+			
+			if (number == 1) {
+				number = 0;
+			}
+			
+			do {
+				
+				if(number % 2 == 0) {
+					number = number / 2;
+					counter++;
+					
+					largestValue = Math.max(number, largestValue);
+					
+					
+				} else {
+					number = (number * 3) + 1;
+					counter++;
+					
+					largestValue = Math.max(number, largestValue);
+				}	
+				System.out.print(number + "\t");
+				
+			} while(number != 1);
+			
+			System.out.println("\nTerminated after " + counter + " steps.");
+			System.out.println("The largest value was " + largestValue + ".");
+			
+			console.close();
+		}	
+}

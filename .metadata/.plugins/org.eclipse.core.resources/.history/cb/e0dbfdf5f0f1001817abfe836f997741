@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class CollatzSequence {
+	public static void main(String[] args) {
+		
+		Scanner console = new Scanner(System.in);
+		System.out.print("Starting number: ");
+		int number = console.nextInt();
+		int counter = 0;
+		int largestValue = 0;
+		
+		do {
+			if(number % 2 == 0) {
+				number = number / 2;
+				counter++;
+				
+//				if(counter == 9) {
+//					System.out.println();
+//				}
+				
+				largestValue = Math.max(number, largestValue);
+				
+				
+			} else {
+				number = (number * 3) + 1;
+				counter++;
+				
+//				if(counter * 2)) {
+//					System.out.println();
+//				}
+				
+				largestValue = Math.max(number, largestValue);
+			}
+			
+			System.out.printf("%-10s %-10s %-10s\n", "number");
+			
+		} while(number != 1);
+		
+		System.out.println("\nTerminated after " + counter + " steps.");
+		System.out.println("The largest value was " + largestValue + ".");
+		
+		console.close();
+	}
+}

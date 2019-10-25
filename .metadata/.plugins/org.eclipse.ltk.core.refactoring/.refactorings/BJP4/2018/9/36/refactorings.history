@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;InteractivePrograms&apos; to &apos;Mortgage&apos;&#x0D;&#x0A;- Original project: &apos;BJP4&apos;&#x0D;&#x0A;- Original element: &apos;InteractivePrograms&apos;&#x0D;&#x0A;- Renamed element: &apos;Mortgage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InteractivePrograms&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{InteractivePrograms.java[InteractivePrograms" matchStrategy="1" name="Mortgage" qualified="false" references="true" similarDeclarations="false" stamp="1536299559396" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package Chapter5ProgramLogicAndIndefiniteLoops;
+
+public class PrintLettersSC11 {
+	public static void main(String[] args) {
+		printLetters("Rabbit");	
+	}
+	
+	public static void printLetters(String text) {
+		for(int i = 0; i <= text.length(); i++) {
+			System.out.print(text.charAt(i) + " - ");
+		}
+		System.out.println();
+	}
+}

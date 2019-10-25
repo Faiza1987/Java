@@ -1,0 +1,4 @@
+#Wed Jul 11 17:58:13 PDT 2018
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=webclipse ci 9

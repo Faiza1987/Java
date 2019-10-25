@@ -1,0 +1,25 @@
+
+public class NumberPalindrome {
+	public static void main(String[] args) {
+		System.out.println("Palindrome: " + isPalindrome(212));
+	}
+	
+	public static boolean isPalindrome(int number) {
+		
+		int reverse = 0;
+		
+		while(number > 0) {
+			int lastDigit = number % 10;
+			reverse = reverse + lastDigit;
+			//reverse = reverse * 10;
+			number = number / 10;
+		}
+		//return true;
+		
+		if(number == reverse) {
+			System.out.println("This number is a palindrome: " + number + " = " + reverse);
+			return true;
+		}
+		return false;
+	}
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class CollatzSequence {
+	public static void main(String[] args) {
+		
+		Scanner console = new Scanner(System.in);
+		System.out.print("Starting number: ");
+		int number = console.nextInt();
+		
+		int collatzSeq = 0;
+		
+		if(number % 2 == 0) {
+			number /= 2;
+		} else {
+			number = (number * 3) + 1;
+		}
+		
+		do {
+			if(number % 2 == 0) {
+				collatzSeq = number / 2;
+			} else {
+				collatzSeq = (number * 3) + 1;
+			}
+		} while(number != 1);
+			
+			System.out.print(collatzSeq + " ");
+		console.close();
+	}
+}

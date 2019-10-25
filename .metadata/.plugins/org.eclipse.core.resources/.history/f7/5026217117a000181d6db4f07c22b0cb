@@ -1,0 +1,48 @@
+
+public class NumberPalindrome {
+	public static void main(String[] args) {
+		palindrome(212);
+	}
+	
+	public static void palindrome(int number) {
+		
+		int givenNumber = number;
+		int reverse = 0;
+		
+		//while number (212) is greater than 0
+			// separate the last digit (2) 
+			// store the last digit in reverse
+			// number is now 21
+			// reverse is now 2
+			// separate 1 from number
+			// multiply reverse by 10
+			// add 1 to reverse
+			// number is now 2
+			// reverse is now 21
+			// separate 2 from number
+			// multiply reverse by 10
+			// add 2 to reverse
+			// number is now 0
+			// reverse is now 212
+		
+			//check to see if the givenNumber is the same as reverse
+			// if it is, return true
+			// if not, return false
+		
+		while(number > 0) {
+			reverse += (number % 10);
+			reverse *= 10;
+			number /= 10;
+		}
+		System.out.println(reverse);
+		System.out.println(number);
+		System.out.println(givenNumber);
+		
+//		if(givenNumber == reverse) {
+//			System.out.println("This is a palindrome");
+//		} else {
+//			System.out.println("This is not a palindrome");
+//		}
+		
+	}
+}

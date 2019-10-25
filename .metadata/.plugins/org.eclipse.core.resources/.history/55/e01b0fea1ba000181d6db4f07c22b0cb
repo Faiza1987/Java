@@ -1,0 +1,41 @@
+
+public class SumFirstAndLastDigit {
+	public static void main(String[] args) {
+		sumFirstAndLastDigit(212);
+	}
+	
+	public static void sumFirstAndLastDigit(int number) {
+		
+		// create a variable called sum with a value of 0
+		// while the number (212) is greater than 0
+		// separate the last digit 
+		// add the last digit to sum
+		// divide number by 10
+		// number is now 21
+		// sum is now 2
+		// separate the 1 from number (21)
+		// store the 1 in another variable called middleDigit
+		// divide number by 10
+		// number is now 2
+		// sum is now 2
+		// middleDigit is now 1
+		// separate the 2 from number
+		// add the 2 to sum
+		// number is now 0
+		// sum is now 4
+		// middleDigit is now 1
+		
+		int sum = 0;
+		int middleDigit = 0;
+		
+		while (number > 0) {
+			sum += number % 10;
+			middleDigit += number % 10;
+			number /= 10;
+		}
+		System.out.println(number);
+		System.out.println(sum);
+		System.out.println(middleDigit);
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Chapter5ProgramLogicAndIndefiniteLoops.Sentinel&apos; to &apos;SentinelAndRandom&apos;&#x0D;&#x0A;- Original project: &apos;BJP4&apos;&#x0D;&#x0A;- Original element: &apos;Chapter5ProgramLogicAndIndefiniteLoops.Sentinel&apos;&#x0D;&#x0A;- Renamed element: &apos;Chapter5ProgramLogicAndIndefiniteLoops.SentinelAndRandom&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sentinel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Chapter5ProgramLogicAndIndefiniteLoops{Sentinel.java[Sentinel" matchStrategy="1" name="SentinelAndRandom" qualified="false" references="true" similarDeclarations="false" stamp="1544147406837" textual="false" version="1.0"/>
+</session>

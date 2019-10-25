@@ -1,0 +1,59 @@
+ /* 1.5
+ * Implement a method to perform basic string compression using the counts
+ * of repeated characters. For example, the string aabcccccaaa would become
+ * a2b1c5a3. If the "compressed" string would not become smaller than the
+ * original string, your method should return the original string.
+ */
+public class compressedString {
+	public static void main(String[] args) {
+		System.out.println(compressString("aaabbbb")); // "a2b2c3a4"
+	}
+	
+	public static String compressString(String word) {
+		if (word.length() == 0) {
+			return word;
+		}
+		
+		String compressed = "";
+		int count = 1;
+		for (int i = 0; i < word.length() - 1; i++){
+			for (int j = i + 1; j < word.length(); j++) {
+				if (word.charAt(i) == word.charAt(j)){
+					System.out.println(count);
+					count++;
+				}else {
+					count = 1;
+					break;
+				}
+			}
+			compressed += word.charAt(i) + Integer.toString(count);
+		}
+		return compressed;
+		
+		
+//		char[] chars = word.toCharArray();
+//		System.out.println(chars);
+//		String compressed = "";
+//		int count = 1;
+//		
+//		for (int i = 0; i < chars.length - 1; i++) {
+//			if(chars[i] == chars[i + 1]){
+////				System.out.println(chars[i]);
+//				count++;
+////				System.out.println(count);
+//				compressed = compressed + Character.toString(chars[i]) + Integer.toString(count);
+////				System.out.println(compressed);
+//			} 
+//				else if(chars[i] != chars[i + 1]) {
+//				count = 0;
+//			} else {
+//				System.out.println("Not a valid word");
+//			}
+//		}
+//		if(compressed.length() < word.length()) {
+//			return compressed;
+//		} else {			
+//			return word;
+//		}
+	}
+}

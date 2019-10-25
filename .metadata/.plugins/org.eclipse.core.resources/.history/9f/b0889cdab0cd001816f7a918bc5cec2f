@@ -1,0 +1,14 @@
+package ConditionalExecution;
+
+import java.util.*;
+
+public class CumulativeSum {
+	public static void main(String[] args) {
+		
+		// sum = 0
+		// for (all numbers to sum){
+		// 	obtain "next"
+		//	sum += next;
+		// }
+	}
+}

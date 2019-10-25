@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;NimCheatProtection&apos; to &apos;NimVersion2&apos;&#x0D;&#x0A;- Original project: &apos;Nim&apos;&#x0D;&#x0A;- Original element: &apos;NimCheatProtection&apos;&#x0D;&#x0A;- Renamed element: &apos;NimVersion2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NimCheatProtection&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{NimCheatProtection.java[NimCheatProtection" matchStrategy="1" name="NimVersion2" qualified="false" references="true" similarDeclarations="false" stamp="1543801735537" textual="false" version="1.0"/>
+</session>
