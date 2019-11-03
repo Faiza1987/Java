@@ -5,6 +5,7 @@ import java.util.HashSet;
 public class LinkedList {
 	static Node head;
 	
+	//Problem: Write code to remove duplicates from an unsorted linked list.
 	// Brute Force O(N^2) time complexity where N is the number of elements in the linked list and ^2 is because of the nested loop
 	void removeDuplicatesBrute() {
 		// initialize variables
@@ -55,11 +56,35 @@ public class LinkedList {
 		}
 	}
 	 
-		void printLinkedList(Node head) {
-			while(head != null) {
-				System.out.println(head.data + " ");
-				head = head.next;
+	// Problem: Implement an algorithm to find the kth to last element of a singly linked list
+	Node findKthToLast(Node head, int k) {
+		Node pointer1 = head;
+		Node pointer2 = head;
+		
+		// Move pointer1 k nodes into the list
+		for(int i = 0; i < k; i++) {
+			if(pointer1 == null) {
+				return null;
+			} else {
+				System.out.println("== " + pointer1.data);
+				pointer1 = pointer1.next;
 			}
 		}
+		
+		// Move pointer1 and pointer2 at the same pace. When pointer1 hits the end of the list, pointer2 will be at the kth element
+		while(pointer1 != null) {
+			pointer1 = pointer1.next; // pointer1 is now 1 node ahead of pointer2
+			pointer2 = pointer2.next;
+		}
+		return pointer2;
+	}
+	
+	// Print Linked List
+	void printLinkedList(Node head) {
+		while(head != null) {
+			System.out.println(head.data + " ");
+			head = head.next;
+		}
+	}
 }
 
