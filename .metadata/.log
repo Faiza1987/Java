@@ -5827,3 +5827,18 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-11-02 21:35:28.783
 !MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY com.genuitec.eclipse.monitor 4 2 2019-11-03 23:00:00.016
+!MESSAGE Problems occurred when invoking code from plug-in: "com.genuitec.eclipse.monitor".
+!STACK 0
+java.lang.IllegalArgumentException: Scheduling delay is negative
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1240)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:382)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:662)
+	at com.genuitec.eclipse.monitor.internal.providers.WebclipseMetricsProvider$2.done(WebclipseMetricsProvider.java:86)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
