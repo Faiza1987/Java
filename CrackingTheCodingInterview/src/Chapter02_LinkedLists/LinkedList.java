@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class LinkedList {
 	static Node head;
+	static Node head2;
 	
 	//Problem: Write code to remove duplicates from an unsorted linked list.
 	// Brute Force O(N^2) time complexity where N is the number of elements in the linked list and ^2 is because of the nested loop
@@ -174,12 +175,118 @@ public class LinkedList {
 		return head;
 	}
 	
+	// Problem: You have 2 numbers represented by a linked list where each node contains a single digit. The digits are stored in reverse order, such that the 1s digit is at the head of list. Write a function that adds the 2 numbers & returns the sum as a linked list
+	// Input: (7 -> 1 -> 6) + (5 -> 9 -> 2) => 617 + 295
+	// Output: 2 -> 1 -> 9 => 912
+	
+//	Node addTwoNumbers(Node l1, Node l2) {
+//        int sum = 0;
+//        Node res = new Node(-1), tail = res;
+//        while(l1 != null || l2 != null || sum >= 10) {
+//            sum /= 10;
+//            if(l1 != null) {
+//                sum += l1.data;
+//                l1 = l1.next;
+//            }
+//            if(l2 != null) {
+//                sum += l2.data;
+//                l2 = l2.next;
+//            }
+//            tail.next = new Node(sum % 10);
+//            tail = tail.next;
+//        }
+//        return res.next;  
+//	}
+	
+	Node addTwoLists(Node first, Node second) {
+		Node result = null; //head node of the result list
+		Node prev = null;
+		Node temp = null;
+		int carry = 0;
+		int sum = 0;
+		
+		// while both lists are not empty
+		while (first != null || second != null) {
+			// Calculate value of next digit in result list
+			// the next digit is the sum of: carry, next of first, next of second
+			sum = carry + (first != null ? first.data : 0) + (second != null ? second.data : 0);
+			
+			// update carry for next calculation
+			if(sum >= 10) {
+				carry = 1;
+			} else {
+				carry = 0;
+			}
+			
+			// update sum if it is > 10
+			sum = sum % 10;
+			
+			// Create a new node with sum as data
+			temp = new Node(sum);
+			
+			// if this is the first node, then set it as the head of the result list
+			if (result == null) {
+				result = temp;
+			} else {
+				prev.next = temp;
+			}
+			
+			// set prev for next insertion
+			prev = temp;
+			
+			// Move first and second pointers to next nodes
+			if(first != null) {
+				first = first.next;
+			}
+			if (second != null) {
+				second = second.next;
+			}
+			
+			if (carry > 0) {
+				temp.next = new Node(carry);
+			}
+		}
+		return result;
+	}
+	
+	// Implement a function to check if a Linked List is a palindrome
+	Boolean isListPalindrome(Node head) {
+		
+		Node reversed = reverseList(head);
+		
+		return isEqual(head, reversed);
+	}
+	
+	private Node reverseList(Node node) {
+		Node head = null;
+		
+		while(node != null) {
+			Node newNode = new Node(node.data);
+			newNode.next = head;
+			head = newNode;
+			newNode = newNode.next;
+		}
+		return head;
+	} 
+	
+	boolean isEqual(Node head, Node tail) {
+		while (head != null && tail != null) {
+			if(head.data != tail.data) {
+				return false;
+			}
+			head = head.next;
+			tail = tail.next;
+		}
+		return head == null && tail == null;
+	}
+	
 	// Print Linked List
 	void printLinkedList(Node head) {
 		while(head != null) {
 			System.out.println(head.data + " ");
 			head = head.next;
 		}
+		System.out.println("");
 	}
 }
 
