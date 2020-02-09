@@ -1,6 +1,7 @@
 package Chapter02_LinkedLists;
 
 import java.util.HashSet;
+import java.util.Stack;
 
 public class LinkedList {
 	static Node head;
@@ -261,10 +262,10 @@ public class LinkedList {
 		Node head = null;
 		
 		while(node != null) {
-			Node newNode = new Node(node.data);
+			Node newNode = new Node(node.data); // clone
 			newNode.next = head;
 			head = newNode;
-			newNode = newNode.next;
+			node = node.next;
 		}
 		return head;
 	} 
@@ -279,6 +280,37 @@ public class LinkedList {
 		}
 		return head == null && tail == null;
 	}
+	
+	// Palindrome with Stack
+	boolean isPalindromeWithStack(Node head) {
+		Node fast = head;
+		Node slow = head;
+		
+		Stack<Integer> halfList = new Stack<Integer>();
+		
+		while(fast != null && fast.next != null) {
+			halfList.push(slow.data);
+			
+			slow = slow.next;
+			fast = fast.next.next;
+		}
+		
+		if(fast != null) {
+			slow = slow.next;
+		}
+		
+		while(slow != null) {
+			int top = halfList.pop().intValue();
+			
+			if(top != slow.data) {
+				return false;
+			}
+			slow = slow.next;
+		}
+		return true;
+	}
+	
+	// REVERSE LIST
 	
 	// Print Linked List
 	void printLinkedList(Node head) {

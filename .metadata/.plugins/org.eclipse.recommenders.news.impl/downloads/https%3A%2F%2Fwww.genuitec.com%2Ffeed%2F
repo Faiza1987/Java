@@ -12,12 +12,63 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Tue, 05 Nov 2019 22:29:39 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 08 Feb 2020 06:40:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	
 	<item>
+		<title>How to Build a CRUD application using React and Django</title>
+		<link>https://www.genuitec.com/how-to-build-crud-application-using-react-and-django/</link>
+		<pubDate>Thu, 30 Jan 2020 17:58:29 +0000</pubDate>
+		<dc:creator><![CDATA[dunebook7]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[codemix]]></category>
+		<category><![CDATA[CRUD]]></category>
+		<category><![CDATA[django]]></category>
+		<category><![CDATA[react]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=637495</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/how-to-build-crud-application-using-react-and-django/">How to Build a CRUD application using React and Django</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Building Applications With The Vue 3 Composition API</title>
+		<link>https://www.genuitec.com/building-applications-vue-3-composition-api/</link>
+		<pubDate>Thu, 19 Dec 2019 21:17:34 +0000</pubDate>
+		<dc:creator><![CDATA[dunebook7]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[codemix]]></category>
+		<category><![CDATA[vue]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=634396</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/building-applications-vue-3-composition-api/">Building Applications With The Vue 3 Composition API</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>MyEclipse 2019.12.5 &#8211; Now, Just MyEclipse</title>
+		<link>https://www.genuitec.com/myeclipse-2019-12-5-now-just-myeclipse/</link>
+		<pubDate>Thu, 05 Dec 2019 18:48:51 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=633459</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/myeclipse-2019-12-5-now-just-myeclipse/">MyEclipse 2019.12.5 &#8211; Now, Just MyEclipse</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Creating a Django Authentication App</title>
+		<link>https://www.genuitec.com/creating-a-django-authentication-app/</link>
+		<pubDate>Thu, 07 Nov 2019 18:02:36 +0000</pubDate>
+		<dc:creator><![CDATA[dunebook7]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=628698</guid>
+		<description><![CDATA[<p>Learn how to use the Django authentication system to manage users and build an app from scratch to authenticate them with a username and password - all using CodeMix.</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/creating-a-django-authentication-app/">Creating a Django Authentication App</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
 		<title>CodeMix 2019.10.29 &#8211; You Code, We Build</title>
 		<link>https://www.genuitec.com/codemix-2019-10-29-you-code-we-build/</link>
 		<pubDate>Tue, 29 Oct 2019 20:36:14 +0000</pubDate>
@@ -160,66 +211,6 @@
 		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/beginners-guide-to-vue-modals/">Beginner&#8217;s Guide to Vue Modals</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
-		<item>
-		<title>Stop Slow Eclipse and MyEclipse Startups on Windows 10</title>
-		<link>https://www.genuitec.com/stop-slow-eclipse-myeclipse-startups/</link>
-		<pubDate>Tue, 25 Jun 2019 23:15:34 +0000</pubDate>
-		<dc:creator><![CDATA[Mauricio Valenzuela]]></dc:creator>
-				<category><![CDATA[Eclipse]]></category>
-		<category><![CDATA[General]]></category>
-		<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[MyEclipse]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=616624</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/stop-slow-eclipse-myeclipse-startups/">Stop Slow Eclipse and MyEclipse Startups on Windows 10</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
-		<item>
-		<title>Big Release, Big Thank You!</title>
-		<link>https://www.genuitec.com/big-release-big-thank-you/</link>
-		<pubDate>Wed, 19 Jun 2019 19:52:03 +0000</pubDate>
-		<dc:creator><![CDATA[Rocio Trujillo]]></dc:creator>
-				<category><![CDATA[General]]></category>
-		<category><![CDATA[Genuitec]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=616355</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/big-release-big-thank-you/">Big Release, Big Thank You!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
-		<item>
-		<title>CodeMix 2019 Summer Refresh</title>
-		<link>https://www.genuitec.com/codemix-2019-summer-refresh/</link>
-		<pubDate>Tue, 11 Jun 2019 17:17:54 +0000</pubDate>
-		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
-				<category><![CDATA[Eclipse]]></category>
-		<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[Programming Tips]]></category>
-		<category><![CDATA[Webclipse]]></category>
-		<category><![CDATA[codemix]]></category>
-		<category><![CDATA[codemix release]]></category>
-		<category><![CDATA[software release]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=615548</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/codemix-2019-summer-refresh/">CodeMix 2019 Summer Refresh</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
-		<item>
-		<title>CodeMix 2019.4.11 is Here—Delivering the Best Coding Experience Yet!</title>
-		<link>https://www.genuitec.com/codemix-2019-4-11-is-here/</link>
-		<pubDate>Mon, 15 Apr 2019 16:05:46 +0000</pubDate>
-		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
-				<category><![CDATA[Eclipse]]></category>
-		<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[Programming Tips]]></category>
-		<category><![CDATA[Webclipse]]></category>
-		<category><![CDATA[codemix]]></category>
-		<category><![CDATA[codemix release]]></category>
-		<category><![CDATA[software release]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=612585</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/codemix-2019-4-11-is-here/">CodeMix 2019.4.11 is Here—Delivering the Best Coding Experience Yet!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
 	</channel>
 </rss>
 
@@ -228,5 +219,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Content Delivery Network via resources.cloud.genuitec.com
 
-Served from: www.genuitec.com @ 2019-11-05 17:14:46 by W3 Total Cache
+Served from: www.genuitec.com @ 2020-02-08 16:57:38 by W3 Total Cache
 -->

@@ -9,8 +9,10 @@ public class palindrome {
 	    list.head.next.next = new Node(2); 
 	    list.head.next.next.next = new Node(1); 
 	    list.head.next.next.next.next = new Node(0); 
+	    list.head.next.next.next.next.next = new Node(0); 
 
-	    list.isListPalindrome(list.head);
-	    list.printLinkedList(list.head);
+//	    System.out.println(list.isListPalindrome(list.head));
+	    System.out.println(list.isPalindromeWithStack(list.head));
+
 	}
 }
