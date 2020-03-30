@@ -1,6 +1,6 @@
 package Chapter2PrimitiveDataAndDefiniteLoopsProgrammingProjects;
 
-public class ProgramminProject_3 {
+public class ProgrammingProject_3 {
 	public static final int SIZE = 5;
 	
 	public static void main(String[] args) {
