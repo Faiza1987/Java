@@ -14,5 +14,7 @@ public class ExamineInput1 {
 		System.out.println(" hasNextInt = " + console.hasNextInt());
 		System.out.println(" hasNextDouble = " + console.hasNextDouble());
 		System.out.println(" hasNext = " + console.hasNext());
+		
+		console.close();
 	}
 }
