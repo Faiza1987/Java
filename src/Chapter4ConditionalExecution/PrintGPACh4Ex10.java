@@ -14,8 +14,6 @@ For example, Maria's grade is 82.8 because her average of (72 + 91 + 84 + 89 + 7
 public class PrintGPACh4Ex10 {
 	public static void main(String[] args) {
 		
-		Scanner console = new Scanner(System.in);
-		
 		printGPA();
 		
 	}

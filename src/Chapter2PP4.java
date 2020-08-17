@@ -1,6 +1,6 @@
 
 public class Chapter2PP4 {
-	public static final int SIZE = 3;
+	public static final int SIZE = 6;
 	
 	public static void main(String[] args) {
 		stairs();
