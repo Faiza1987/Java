@@ -42,10 +42,7 @@ public class Exercise_5_17_monthApart {
 			if(day1 >= day2) {
 				return true;
 			}
-		}
-		
-
-		
+		}	
 		return false;
 	}
 }
