@@ -28,26 +28,24 @@ public class Exercise_5_17_monthApart {
 
 	public static boolean monthApart(int month1, int day1, int month2, int day2) {
 		
+		if(month1 - month2 > 1) {
+			return true;
+		}
+		
 		if(month1 < month2) {
-			if(day1 < day2) {
-				return true;
-			}
-			if(day1 == day2) {
+			if(day1 <= day2) {
 				return true;
 			}
 		}
 		
 		if(month1 > month2) {
-			if(day1 > day2) {
-				return true;
-			}
-			if(day1 == day2) {
+			if(day1 >= day2) {
 				return true;
 			}
 		}
 		
+
 		
 		return false;
-		
 	}
 }
