@@ -1,0 +1,19 @@
+package Chapter7Arrays;
+
+import java.util.Arrays;
+
+//Write a piece of code that constructs a two-dimensional array of integers named table with 5 rows and 10 columns. Fill the array with a multiplication table, so that array element [i][j] contains the value i * j. Use nested for loops to build the array.
+
+public class SelfCheck_7_33_fiveByTenArray {
+
+	public static void main(String[] args) {
+		int[][] table = new int[5][10];
+		
+		for(int r = 0; r < table.length; r++) {
+			for(int c = 0; c < table[r].length; c++) {
+				table[r][c] = (r * c);
+			}
+		}
+		System.out.println(Arrays.deepToString(table));
+	}
+}
